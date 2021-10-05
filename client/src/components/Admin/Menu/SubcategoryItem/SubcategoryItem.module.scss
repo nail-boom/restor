@@ -1,0 +1,32 @@
+.main__block {
+  background-color: #0c0c0c;
+  display: flex;
+  flex-direction: column;
+  // align-items: center;
+  .buttonMain {
+    margin-top: 1rem;
+    margin-left: 1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #1f87f0;
+    color: #fff;
+    font-size: 1rem;
+    // text-transform: uppercase;
+    height: 2rem;
+    padding: 1rem;
+    border-radius: 0.1rem;
+  }
+  
+  .buttonMain:active {
+    background-color: #0d4a88;
+  }
+  .dish__block {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    background-color: #0c0c0c;
+  }
+}
+
+

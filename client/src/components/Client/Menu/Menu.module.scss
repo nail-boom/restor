@@ -1,0 +1,31 @@
+.container{
+ .pic{
+  height: 17rem;
+  object-fit:cover;
+  width: 100vw;
+  overflow: hidden;
+}
+}
+
+.block{
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: auto;
+ 
+  margin-top: 5rem;
+
+  .categories{
+    width: 50%;
+    min-height: 50vh;
+    height: auto;
+    margin-bottom: 3rem;
+  }
+
+}
+
+
+
+

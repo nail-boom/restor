@@ -1,0 +1,17 @@
+.video__main_container {
+  max-height: 100vh;
+  overflow: hidden;
+}
+
+.video__container {
+  position: relative;
+  padding-bottom: 56.25%;
+}
+
+.video__media {
+  width: 100%;
+  height: auto;
+  position: absolute;
+  top: 0;
+  left: 0;
+}

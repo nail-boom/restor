@@ -1,0 +1,8 @@
+//AT client fetch
+export const SAGA_FETCH_REG = 'SAGA_FETCH_REG';
+export const SAGA_FETCH_LOGIN = 'SAGA_FETCH_LOGIN';
+export const SAGA_FETCH_LOGOUT = 'SAGA_FETCH_LOGOUT';
+
+// AT categories fetch
+export const SAGA_FETCH_CATEGORYLIST = 'SAGA_FETCH_CATEGORYLIST';
+export const SAGA_FETCH_GET_CATEGORIES = 'SAGA_FETCH_GET_CATEGORIES';

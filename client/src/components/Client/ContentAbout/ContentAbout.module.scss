@@ -1,0 +1,157 @@
+.main__container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 80vh;
+  width: 70%;
+  margin: 0 auto;
+
+  
+}
+
+.about__gold{
+  font-family: 'Caveat', cursive;
+  font-size: 1.8rem;
+  color: #cfa670;
+}
+
+.about__img {
+  background: url('../../../images/borch.png') no-repeat
+    center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: 20rem;
+  width: 50%;
+  height: 70%;
+  margin-right: 6rem;
+}
+
+.text_container {
+  width: 50%;
+  margin-right: 2rem;
+}
+
+.about__title {
+  color: #fff;
+  font-size: 2.5rem;
+  font-family: 'Oswald', sans-serif;
+  font-weight: bold;
+  margin-bottom: 0.4rem;
+}
+
+.about__text {
+  color: #fff;
+  font-size: 1.3rem;
+}
+
+.about__btn {
+  margin-top: 0.8rem;
+  position: relative;
+  background: none;
+  padding: 0.4rem;
+}
+
+.about__btn:before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+
+  width: 0;
+  height: 0;
+  background: transparent;
+  border: 2px solid transparent;
+}
+
+.about__btn:hover:before {
+  animation: animate 1s linear forwards;
+}
+
+@keyframes animate {
+  0% {
+    width: 0;
+    height: 0;
+    border-top-color: #cfa670;
+    // border-top-color: #fff;
+    border-right-color: transparent;
+    border-bottom-color: transparent;
+    border-left-color: transparent;
+  }
+
+  50% {
+    width: 100%;
+    height: 0;
+    border-top-color: #cfa670;
+    border-right-color: #cfa670;
+    border-bottom-color: transparent;
+    border-left-color: transparent;
+  }
+
+  100% {
+    width: 100%;
+    height: 100%;
+    border-top-color: #cfa670;
+    border-right-color: #cfa670;
+    border-bottom-color: transparent;
+    border-left-color: transparent;
+  }
+}
+
+.about__btn:after {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+
+  width: 0;
+  height: 0;
+  background: transparent;
+  border: 2px solid transparent;
+}
+
+.about__btn:hover:after {
+  animation: animate2 1s linear forwards;
+}
+
+@keyframes animate2 {
+  0% {
+    width: 0;
+    height: 0;
+    border-top-color: transparent;
+    border-right-color: transparent;
+    border-bottom-color: transparent;
+    border-left-color: #cfa670;
+  }
+
+  50% {
+    width: 0;
+    height: 100%;
+    border-top-color: transparent;
+    border-right-color: transparent;
+    border-bottom-color: #cfa670;
+    border-left-color: #cfa670;
+  }
+
+  100% {
+    width: 100%;
+    height: 100%;
+    border-top-color: transparent;
+    border-right-color: transparent;
+    border-bottom-color: #cfa670;
+    border-left-color: #cfa670;
+  }
+}
+
+.about__btn__text {
+  z-index: 1000;
+  position: relative;
+  color: #cfa670;
+  background: none;
+  font-size: 1.3rem;
+  transition: all 1s linear;
+}
+.about__btn__text:hover {
+  color: #cfa670;
+  text-decoration: none;
+}
